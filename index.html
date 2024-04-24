@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="stylesheet" href="./style/output.css">
+    <title>Frontend Mentor | Social proof section</title>
+  </head> 
+  <body>
+    <div 
+      class="flex items-center justify-center min-h-screen px-6 py-20 bg-pattern-mobile
+      bg-no-repeat bg-position-mobile lg:bg-position-desktop lg:bg-pattern-desktop"
+    >
+      <main 
+        class="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:gap-16 lg:max-w-[1100px] items-center"
+      >
+        <header class="text-center flex flex-col gap-5 lg:text-left xl:mr-16">
+          <h1 class="text-title leading-8 text-darkMagenta font-bold lg:leading-none">
+            10,000+ of our users love our products.
+          </h1>
+          <p class="text-darkGrayishMagenta font-medium text-lg">
+            We only provide great products combined with excellent customer service.
+            See what our satisfied customers are saying about our services.
+          </p>
+        </header>
+
+        <section class="flex flex-col gap-4">
+          <article 
+            class="flex flex-col items-center justify-center gap-3 bg-lightGrayishMagenta py-3 rounded-lg
+            lg:flex-row lg:self-start lg:gap-8 lg:w-[calc(100%_-_100px)] hover:scale-105 transition-all lg:py-4"
+          >
+            <section class="flex gap-2 items-center justify-center">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+            </section>
+            <p class="text-darkMagenta font-bold text-base">
+              Rated 5 Stars in Reviews
+            </p>
+          </article>
+          <article 
+            class="flex flex-col items-center justify-center gap-3 bg-lightGrayishMagenta py-3 rounded-lg
+            lg:flex-row lg:self-center lg:gap-8 lg:w-[calc(100%_-_100px)] hover:scale-105 transition-all lg:py-4"
+          >
+            <section class="flex gap-2 items-center justify-center">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+            </section>
+            <p class="text-darkMagenta font-bold text-base">
+              Rated 5 Stars in Report Guru
+            </p>
+          </article>
+          <article 
+            class="flex flex-col items-center justify-center gap-3 bg-lightGrayishMagenta py-3 rounded-lg
+            lg:flex-row lg:self-end lg:gap-8 lg:w-[calc(100%_-_100px)] hover:scale-105 transition-all lg:py-4"
+          >
+            <section class="flex gap-2 items-center justify-center">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+              <img src="./images/icon-star.svg" alt="star">
+            </section>
+            <p class="text-darkMagenta font-bold text-base">
+              Rated 5 Stars in BestTech
+            </p>
+          </article>
+        </section>
+
+        <section class="flex flex-col gap-4 mt-4 lg:flex-row lg:col-span-2 lg:gap-8 lg:h-[calc(100%_+_20px)]">
+          <article class="bg-darkMagenta p-8 rounded-lg lg:self-start lg:py-9 hover:scale-105 transition-all">
+            <div class="flex items-center gap-5">
+              <img
+                src="./images/image-colton.jpg"
+                alt="avatar"
+                class="rounded-full w-10 h-10 object-cover"
+              >
+              <div class="flex flex-col justify-center gap-1 text-base leading-none">
+                <a href="" class="text-lightGrayishMagenta font-bold">Colton Smith</a>
+                <p class="text-softPink font-normal">Verified Buyer</p>
+              </div>
+            </div>
+            <blockquote class="text-lightGrayishMagenta font-medium mt-6 text-base">
+              "We needed the same printed design as the one we had ordered a week prior.
+              Not only did they find the original order, but we also received it in time.
+              Excellent!"
+            </blockquote>
+          </article>
+
+          <article class="bg-darkMagenta p-8 rounded-lg lg:self-center lg:py-9 hover:scale-105 transition-all">
+            <header class="flex items-center gap-5">
+              <img
+                src="./images/image-irene.jpg"
+                alt="avatar"
+                class="rounded-full w-10 h-10 object-cover"
+              >
+              <div class="flex flex-col justify-center gap-1 text-base leading-none">
+                <a href="" class="text-lightGrayishMagenta font-bold">Irene Roberts</a>
+                <p class="text-softPink font-normal">Verified Buyer</p>
+              </div>
+            </header>
+            <blockquote class="text-lightGrayishMagenta font-medium mt-6 text-base">
+              "Customer service is always excellent and very quick turn around. Completely
+              delighted with the simplicity of the purchase and the speed of delivery."
+            </blockquote>
+          </article>
+
+          <article class="bg-darkMagenta p-8 rounded-lg lg:self-end lg:py-9 hover:scale-105 transition-all">
+            <header class="flex items-center gap-5">
+              <img
+                src="/images/image-anne.jpg"
+                alt="avatar"
+                class="rounded-full w-10 h-10 object-cover"
+              >
+              <div class="flex flex-col justify-center gap-1 text-base leading-none">
+                <a href="" class="text-lightGrayishMagenta font-bold">Anne Wallace</a>
+                <p class="text-softPink font-normal">Verified Buyer</p>
+              </div>
+            </header>
+            <blockquote class="text-lightGrayishMagenta font-medium mt-6 text-base">
+              "Put an order with this company and can only praise them for the very high
+              standard. Will definitely use them again and recommend them to everyone!"
+            </blockquote>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
